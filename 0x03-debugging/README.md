@@ -1,1 +1,1 @@
-concepts and processes of debugging
+Debugging intro
