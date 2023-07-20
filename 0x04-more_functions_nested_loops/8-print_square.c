@@ -1,8 +1,11 @@
 #include "main.h"
 
 /**
- *  * print_square - prints a square, followed by a new line;
+ *  * print_square - prints a square using the character #
+ *
  *   * @size: size of the square
+ *
+ *   Return: Always 0 ( Success)
  */
 void print_square(int size)
 {
