@@ -7,7 +7,7 @@
  * check_num - check - string there are digit
  * @str: array str
  *
- *  *Return: Always 0 (Success)
+ *Return: Always 0 (Success)
  */
 
 int check_num(char *str)
@@ -22,6 +22,7 @@ int check_num(char *str)
 		{
 			return (0);
 		}
+
 	count++;
 	}
 	return (1);
@@ -29,9 +30,10 @@ int check_num(char *str)
 
 /**
  * main - Print the name of the program
- *  @argc: Count arguments
- *  @argv: Arguments
- *  Return: Always 0 (Success)
+ * @argc: Count arguments
+ * @argv: Arguments
+ *
+ * Return: Always 0 (Success)
  */
 
 
@@ -54,6 +56,7 @@ int main(int argc, char *argv[])
 		else
 		{
 			printf("Error\n");
+			return (1);
 		}
 		count++;
 	}
